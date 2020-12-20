@@ -1,0 +1,16 @@
+.card-img-title {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+  }
+    
+  .card-img-title .card-img-top {
+    z-index: 0;
+  }
+      
+  .card-img-title .card-body {
+    text-align: center;
+    width: 100%;
+    margin: 33% 0;
+    position: absolute;
+    z-index: 1;
+  }
