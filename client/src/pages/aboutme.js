@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import {MyCard, ContactCard} from "../components/Cards";
 import Navbar from "../components/Navbar";
 import { Container, Row, Col, Grid } from "@material-ui/core";
-
+import Footer from "../components/Footer";
 
 function Aboutme() {
 
@@ -17,6 +17,7 @@ function Aboutme() {
                     </Grid>
                 </Grid>
             </Container>
+            <Footer/>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import { Paper, Container } from "@material-ui/core";
-import Me from "../../img/Me.png";
-import "./style.css";
+import Me from "../../Me.png";
+import "./styles.css";
 
 
 export  function MyCard() {
@@ -49,20 +49,20 @@ export function ContactCard () {
 }
 
 export  function ProjectsCard (props) {
-    return (
-            <Paper  elevation={3} style={{margin:"10%" }}>
-                <div className="card" style={{width: "18rem"}} >
-                    <div className="card-img-title"> 
-                        <p>{props.title}</p>
-                        <img className="card-img-top" src={props.img} alt="Card image cap"/>
+    return ( 
+            <Paper className="c" elevation={3} style={{margin:"3%", width:"25rem", height:"15rem" }}>
+                <div className="card c " style={{width: "25rem"}} >    
+                    <div className="card-img-title cit"> 
+                        <h3 className="title"> {props.title}</h3>
+                        <img className="card-img-top citop" src={props.img} alt="Card image cap"/>
                     </div>
-                    <div className="card-body">
-                       <p>{props.about}</p>
-                        <a href={props.github}><i class="fa fa-github-square size:5x"></i></a>
-                        <a href={props.deployed}></a>
+                    <div className="card-body cb">
+                       <p className="body">{props.about}</p>
+                        <a href={props.github} className=" float-left body"><i class="fa fa-github-square size:5x"></i>GitHup</a>
+                        <a className="float-right body"href={props.deployed}>Deployed</a>
                     </div>
-                </div>  
+                </div> 
+
             </Paper>
-       
     )
 }

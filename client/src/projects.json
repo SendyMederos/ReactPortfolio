@@ -2,23 +2,23 @@
   {
     "id": 1,
     "title": "OnYourFit",
-    "image": "../img/OnYourFit.png",
-    "about":"This application is designed to assist hikers find the best trail in a city based on 3 parameters(difficulty grade, conditional status and/or location)set by the end user.",
+    "image": "/img/OnYourFit.png",
+    "about":"This application is designed to assist hikers find the best trail  around you or across the continent.",
     "github": "https://github.com/SendyMederos/onyourfit",
     "deployed": "https://plrobbins.github.io/onyourfit/"
   },
   {
     "id": 2,
     "title": "Weather_App",
-    "image": "/img/Weather_App",
-    "about":"A simple weather app tha uses a third-party API to display the weather today and the next five days on the City of your choice arround the world. Your most recent searches are seaved.",
+    "image": "/img/Weather_App.png",
+    "about":"A simple weather app tha uses a third-party API to display the weather today and the next five days on the City of your choice arround the world. ",
     "github": "https://github.com/SendyMederos/Weather-App",
     "deployed": "https://sendymederos.github.io/Weather-App/"
   },
   {
     "id": 3,
     "title": "Coding Quiz",
-    "image": "../img/Coding_Quiz",
+    "image": "/img/Coding_Quiz.png",
     "about":"One of the first applications. Is a series of questions dinamically generated and score keeping records on local storage.",
     "github": "https://github.com/SendyMederos/Coding-Quiz",
     "deployed": "https://sendymederos.github.io/Coding-Quiz/"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Avail",
-    "image": "../img/Avail",
+    "image": "/img/Avail.png",
     "about":"Avail is a peer to peer tutoring resource that brings students of all subjects together to learn and grow.",
     "github": "https://github.com/SendyMederos/Avail/tree/main",
     "deployed": "https://frightening-scarecrow-12242.herokuapp.com/"
@@ -34,15 +34,15 @@
   {
     "id": 5,
     "title": "My Google Books",
-    "image": "../img/GoogleBooks",
-    "about":"React-based Google Books Search app. This application uses React components, works with helper/util functions, and utilizes React lifecycle methods to query and display books based on user searches.It also uses Node, Express and MongoDB so that users can save books to review or purchase later.",
+    "image": "/img/GoogleBooks.png",
+    "about":"React-based Google Books Search app. Where the users can save books to review or purchase later.",
     "github": "https://github.com/SendyMederos/MyGoogleBooks",
     "deployed": "https://rocky-lowlands-25767.herokuapp.com/savedBooks"
   },
   {
     "id": 6,
     "title": "Bazaar6",
-    "image": "../img/na",
+    "image": "/img/na.png",
     "about":"E-Comerce Store on-progress.",
     "github": "https://401",
     "deployed": "https://401"
