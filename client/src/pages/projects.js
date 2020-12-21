@@ -23,12 +23,9 @@ function Project() {
         <div className={classes.main}>
 
             <Navbar />
-            <Grid container style={{ marginTop: "3%", marginLeft: "10%" }} spacing={3}
-                direction="row"
-                justify="flex-start"
-                alignItems="flex-start" >
+            <div className="wrapper">
                 {myprojects.map((project) => (
-                    <Grid item xs={12} sm={6} key={project.id}>
+                    
                         <ProjectsCard
                             id={project.id}
                             title={project.title}
@@ -37,11 +34,11 @@ function Project() {
                             github={project.github}
                             deployed={project.deployed}
                         />
-                    </Grid>
+                   
                 ))}
 
-
-            </Grid>
+</div>
+          
 
             <Footer />
         </div>

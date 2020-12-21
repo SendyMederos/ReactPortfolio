@@ -49,7 +49,7 @@ export function ContactCard () {
 }
 
 export  function ProjectsCard (props) {
-    return ( 
+    return ( <div className="wrapper">
             <Paper className="c" elevation={3} style={{margin:"3%", width:"25rem", height:"15rem" }}>
                 <div className="card c " style={{width: "25rem"}} >    
                     <div className="card-img-title cit"> 
@@ -64,5 +64,6 @@ export  function ProjectsCard (props) {
                 </div> 
 
             </Paper>
+            </div>
     )
 }
