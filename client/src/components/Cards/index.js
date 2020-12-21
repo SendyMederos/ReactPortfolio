@@ -40,7 +40,7 @@ export function ContactCard () {
                     <ul className="text-center list-inline">
                         <li><a  className="text-dark" href= "https://github.com/SendyMederos"><h4> <i class="fa fa-github-square size:5x"></i>  My GitHub </h4></a><br/></li>
                         <li><a  className="text-dark" href= "https://www.linkedin.com/in/sendy-mederos/"><h4> <i style={{backgroundColor:"#292b2c", color:"grey"}} class="fa fa-linkedin"></i>  My LinkedIn</h4></a><br/></li>
-                        <li><a  className="text-dark" href= "https://github.com/SendyMederos"><h4><i class="fa fa-file"></i>   My Resume </h4></a><br/></li>
+                        <li><a  className="text-dark" href= "https://docs.google.com/document/d/1sbBxRqdrDvcLAYtdaq_1yskrFwRQ2p886W3OfAW_vH0/edit"><h4><i class="fa fa-file"></i>   My Resume </h4></a><br/></li>
                     </ul>
                 </div>
             </div>
